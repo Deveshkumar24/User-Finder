@@ -74,11 +74,12 @@ inp.addEventListener("input", function () {
 
   document.querySelector(".cards").innerHTML = "";
 
-  // --- BUS YE PART ADD KIYA HAI ---
+
   if (newUsers.length === 0) {
     document.querySelector(".cards").innerHTML = `<h3 class="text-white text-xl font-semibold mt-5">No user found</h3>`;
   } else {
+
     showUsers(newUsers);
   }
-  // --------------------------------
+  
 });
